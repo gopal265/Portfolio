@@ -417,3 +417,31 @@ footer {
         width: 100% !important;
     }
   }
+
+  .thankyou-body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(151, 113, 113),rgb(128, 128, 184));
+  }
+
+  .message{
+    font-size: 30px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (max-width : 568px){
+    .message{
+        font-size: 20px;
+    }
+  }
+
+  .thankyou-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px ;
+    max-width: 100%;
+    width: auto;
+  }
